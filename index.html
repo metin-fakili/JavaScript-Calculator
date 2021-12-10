@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div data-output class="current-output">0</div>
+        <div class="calculator-grid">
+            <button data-all-clear class="span-two">AC</button>
+            <button data-delete>DEL</button>
+            <button data-operation>÷</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>x</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>+</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>-</button>
+            <button data-number>0</button>
+            <button data-number>.</button>
+            <button data-equals class="span-two">=</button>
+        </div>
+        <div class="recent-calculations">
+            <h4>Recent calculations</h4>
+            <div data-calc-one id="calculation-one">92.2 x 4 = 328.8</div>
+            <div data-calc-two id="calculation-two">17.5 x 5 = 85</div>
+            <div data-calc-three id="calculation-three">685 x 34 = 23,290</div>
+        </div>
+    </div>
+</body>
+</html>
